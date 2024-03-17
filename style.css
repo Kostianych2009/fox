@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
+* {
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	 font-family: "Madimi One", sans-serif;
+}
+section {
+	padding; 50px 20px;
+}
+
+.header {
+	border: 1px solid red;
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	justify-content: center;
+	background-image: url('./images/africa.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 20px;
+}
+.header__title {
+	color: #78d61a;
+	font-size: 100px;
+	text-shadow: -5px -5px 3px #333;
+	border-bottom: 8px double;
+}
+.s-info {
+	display: flex;
+	backgound: #fbec5d;
+}
+.s-info__content{
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	border-left: 5px dotted;
+	padding-left: 10px;
+}
+.s-info__text:nth-child(1) {
+	align-self: flex-start;
+	border-radius: 50%;
+}
+.s-info__text:nth-child(2) {
+	align-self: center;
+	border-radius: 0% 50% 50% 50%;
+}
+.s-info__text:nth-child(3) {
+	align-self: flex-end;
+	border-radius: 0% 50%;
+}
+.s-info__text {
+	background-color: #7ddb18;
+	width: 180px;
+	height: 180px;
+	font-size: 15px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: justify;
+	color: #b4710e;
+	box-shadow: 3px 5px 3 px #333;
+}
+.s-info__img {
+	margin-right: 20px;
+}
